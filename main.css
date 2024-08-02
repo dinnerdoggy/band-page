@@ -6,6 +6,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  height: 100vh;
 }
 
 #logo {
@@ -18,4 +19,31 @@ p {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 1.5rem;
   text-shadow: 0 0 5px red;
+  margin-bottom: 4rem;
+}
+
+#headerVids {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.division {
+  margin: 4rem auto;
+  width: 80%;
+  border: 2px solid #780606;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+#clipVids {
+  margin-bottom: 4rem;
 }
